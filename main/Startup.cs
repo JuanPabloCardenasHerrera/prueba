@@ -34,7 +34,7 @@ namespace main
             {
                 endpoints.MapGet("/", async context =>
                 {
-                await context.Response.WriteAsync("Hola perros");
+                await context.Response.WriteAsync("Hola perros son unos hermosos");
                 });
             });
         }
